@@ -1,4 +1,4 @@
-# CRUD_Patient
+# CRUD_Patient using Java Spring-boot/ Postman / MySQL workbench
 Create a REST API for the patient directory at a dentist
 
 # API Requirements
