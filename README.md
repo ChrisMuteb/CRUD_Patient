@@ -1,5 +1,10 @@
-# CRUD_Patient using Java Spring-boot/ Postman / MySQL workbench
-Create a REST API for the patient directory at a dentist
+# CRUD_Patient 
+Create a REST API for the patient directory using Java Spring-boot/ Postman / MySQL workbench
+Language: Java
+Project: Maven
+Spring Boot: 3.1.2
+Packaging: Jar
+Java version: Java 17
 
 # API Requirements
 REST clients should be able to:
@@ -8,6 +13,7 @@ Get a single patient by Id
 Add a new patient
 Update a patient
 Delete a patient
+
 
 # Steps to follow:
 ## Add Security and Authentication to the backend application
