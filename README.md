@@ -6,6 +6,8 @@ Spring Boot: 3.1.2
 Packaging: Jar
 Java version: Java 17
 
+Dependencies: Spring Web(Build web), Spring Data JPA(persist data in SQL), Spring Boot DevTools, MySQL Drive(MySQL JDBC driver)
+
 # API Requirements
 REST clients should be able to:
 Get a list of patients
