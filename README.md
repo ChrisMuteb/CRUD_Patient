@@ -11,9 +11,10 @@ Dependencies: Spring Web(Build web), Spring Data JPA(persist data in SQL), Sprin
 Development Process Phase 1: 
   1. Update db configs in application.properties
   2. Create Patient entity
-  3. Create DAO interface
-  4. Create DAO implementation
-  5. Create REST controller to use DAO
+  3. Create a patient repository that extends JpaRepository<Patient, Long>
+  4. For scalability add a patient service for custome business logic
+  5. Create REST controller to use the service
+  6. Add basic authentication
 
 # API Requirements
 REST clients should be able to:
