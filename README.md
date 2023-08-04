@@ -8,6 +8,13 @@ Java version: Java 17
 
 Dependencies: Spring Web(Build web), Spring Data JPA(persist data in SQL), Spring Boot DevTools, MySQL Drive(MySQL JDBC driver)
 
+Development Process Phase 1: 
+  1. Update db configs in application.properties
+  2. Create Patient entity
+  3. Create DAO interface
+  4. Create DAO implementation
+  5. Create REST controller to use DAO
+
 # API Requirements
 REST clients should be able to:
 Get a list of patients
